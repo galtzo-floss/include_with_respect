@@ -10,41 +10,30 @@
     [173, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
     [174, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
   ],
-  "lib/include_with_respect.rb:1250825386": [
-    [27, 5, 13, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2725251239],
-    [30, 68, 13, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2725251239],
-    [35, 5, 13, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2725251239],
-    [38, 67, 13, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2725251239],
-    [55, 5, 49, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1160219549],
-    [70, 9, 13, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2725251239]
+  "lib/include_with_respect.rb:3187268041": [
+    [53, 5, 49, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1160219549]
   ],
-  "spec/include_with_respect_spec.rb:283101661": [
-    [31, 11, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
-    [32, 11, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [36, 11, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
-    [36, 25, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [43, 7, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
-    [44, 14, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
-    [45, 7, 24, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 2398762279],
-    [45, 7, 24, "RSpec/LeakyConstantDeclaration: Stub constant instead of declaring explicitly.", 2398762279],
-    [46, 7, 26, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 4127588487],
-    [46, 7, 26, "RSpec/LeakyConstantDeclaration: Stub constant instead of declaring explicitly.", 4127588487],
-    [50, 7, 40, "RSpec/RemoveConst: Do not use remove_const in specs. Consider using e.g. `stub_const`.", 1351322148],
-    [51, 7, 39, "RSpec/RemoveConst: Do not use remove_const in specs. Consider using e.g. `stub_const`.", 1484790384],
-    [52, 7, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
-    [80, 13, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
-    [80, 27, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [88, 13, 41, "RSpec/Output: Do not write to stdout in specs.", 151451195],
-    [89, 13, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [118, 13, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
-    [118, 27, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [126, 13, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
-    [127, 13, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [169, 18, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
-    [201, 15, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
-    [201, 29, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [209, 15, 41, "RSpec/Output: Do not write to stdout in specs.", 151451195],
-    [210, 15, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
+  "spec/include_with_respect_spec.rb:722520501": [
+    [65, 11, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
+    [66, 11, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [70, 11, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
+    [70, 25, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [77, 7, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
+    [78, 14, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
+    [84, 7, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
+    [112, 13, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
+    [112, 27, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [120, 13, 41, "RSpec/Output: Do not write to stdout in specs.", 151451195],
+    [121, 13, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [150, 13, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
+    [150, 27, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [158, 13, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
+    [159, 13, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [201, 18, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
+    [233, 15, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
+    [233, 29, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [241, 15, 41, "RSpec/Output: Do not write to stdout in specs.", 151451195],
+    [242, 15, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
   ],
   "spec/module_state_spec.rb:175595475": [
     [3, 16, 28, "RSpec/DescribeClass: The first argument to describe should be the class or module being tested.", 556802409],
@@ -58,21 +47,9 @@
     [59, 26, 27, "Style/GlobalVars: Do not introduce global variables.", 3498152964],
     [62, 5, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
   ],
-  "spec/support/shared_contexts/my_context.rb:1108674525": [
+  "spec/support/shared_contexts/my_context.rb:279629335": [
     [3, 22, 12, "RSpec/ContextWording: Context description should match /^when\\b/, /^with\\b/, or /^without\\b/.", 3580178606],
     [13, 9, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [22, 9, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [38, 5, 37, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 1934848504],
-    [38, 5, 37, "RSpec/LeakyConstantDeclaration: Stub constant instead of declaring explicitly.", 1934848504],
-    [39, 5, 20, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 1308396007],
-    [39, 5, 20, "RSpec/LeakyConstantDeclaration: Stub constant instead of declaring explicitly.", 1308396007],
-    [40, 5, 18, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 873803687],
-    [40, 5, 18, "RSpec/LeakyConstantDeclaration: Stub constant instead of declaring explicitly.", 873803687],
-    [41, 5, 42, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 741819463],
-    [41, 5, 42, "RSpec/LeakyConstantDeclaration: Stub constant instead of declaring explicitly.", 741819463],
-    [45, 5, 47, "RSpec/RemoveConst: Do not use remove_const in specs. Consider using e.g. `stub_const`.", 2476151085],
-    [46, 5, 36, "RSpec/RemoveConst: Do not use remove_const in specs. Consider using e.g. `stub_const`.", 4094957481],
-    [47, 5, 37, "RSpec/RemoveConst: Do not use remove_const in specs. Consider using e.g. `stub_const`.", 1990303261],
-    [48, 5, 45, "RSpec/RemoveConst: Do not use remove_const in specs. Consider using e.g. `stub_const`.", 1200841509]
+    [22, 9, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
   ]
 }

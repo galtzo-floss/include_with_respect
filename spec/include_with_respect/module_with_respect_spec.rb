@@ -16,4 +16,19 @@ RSpec.describe IncludeWithRespect::ModuleWithRespect do
       expect(output).to include(*logs)
     end
   end
+
+  it "extends a module without reapplying an existing extension when configured to skip" do
+    begin
+      host = Class.new do
+        include IncludeWithRespect::ModuleWithRespect
+      end
+      extension = Module.new
+      host.extend(extension)
+      IncludeWithRespect.configuration.level = :skip
+
+      expect { host.extend(extension) }.not_to raise_error
+    ensure
+      IncludeWithRespect.configuration.level = :warning
+    end
+  end
 end

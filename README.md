@@ -346,7 +346,7 @@ See [LICENSE.md][📄license] for the official copyright notice.
 <details markdown="1">
 <summary>Copyright holders</summary>
 
-- Copyright (c) 2019-2020, 2025-2026 Peter Boling
+- Copyright (c) 2019-2020, 2025-2026 Peter H. Boling
 
 </details>
 

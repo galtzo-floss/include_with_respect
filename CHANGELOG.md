@@ -91,6 +91,8 @@ Please file a bug if you notice a violation of semantic versioning.
 - kettle-jem-template-20260802-001 - Devcontainer JSON files now merge as JSONC,
   preserving comments and trailing commas during template updates.
 
+- Avoid shared per-call state when suppressing duplicate include and extend operations.
+
 ### Security
 
 [Unreleased]: https://gitlab.com/pboling/include_with_respect/-/compare/HEAD

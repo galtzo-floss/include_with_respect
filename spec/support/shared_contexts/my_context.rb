@@ -35,16 +35,9 @@ RSpec.shared_context "my context" do
   end
 
   before do
-    MyIncludedModule = my_included_module
-    MyModule = my_module
-    MyClass = my_class
-    MyClassWithRespect = my_class_with_respect
-  end
-
-  after do
-    Object.send(:remove_const, :MyClassWithRespect) if defined?(MyClassWithRespect)
-    Object.send(:remove_const, :MyClass) if defined?(MyClass)
-    Object.send(:remove_const, :MyModule) if defined?(MyModule)
-    Object.send(:remove_const, :MyIncludedModule) if defined?(MyIncludedModule)
+    stub_const("MyIncludedModule", my_included_module)
+    stub_const("MyModule", my_module)
+    stub_const("MyClass", my_class)
+    stub_const("MyClassWithRespect", my_class_with_respect)
   end
 end

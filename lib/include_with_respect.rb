@@ -24,18 +24,16 @@ module IncludeWithRespect
   class Error < StandardError; end
 
   def include_with_respect(receiver, module1, *smth)
-    @skip_include = false
-    have_respect("included", receiver, module1, *smth) if receiver.include?(module1)
+    skip = receiver.include?(module1) && have_respect("included", receiver, module1, *smth)
 
-    receiver.send(:include_without_respect, module1, *smth) unless @skip_include
+    receiver.send(:include_without_respect, module1, *smth) unless skip
   end
   module_function :include_with_respect
 
   def extend_with_respect(receiver, module1, *smth)
-    @skip_include = false
-    have_respect("extended", receiver, module1, skip, *smth) if receiver.singleton_class.include?(module1)
+    skip = receiver.singleton_class.include?(module1) && have_respect("extended", receiver, module1, *smth)
 
-    receiver.send(:extend_without_respect, module1, *smth) unless @skip_include
+    receiver.send(:extend_without_respect, module1, *smth) unless skip
   end
   module_function :extend_with_respect
 
@@ -60,16 +58,17 @@ module IncludeWithRespect
   def have_respect(action, receiver, module1, *smth)
     message = "#{module1}#{" with #{smth}" if smth.any?} already #{action} in #{receiver}"
     puts "message: #{message}" if configuration.level == [:error]
-    configuration.level.each do |level|
+    configuration.level.any? do |level|
       case level
       when :error
         raise ::IncludeWithRespect::Error, message
       when :warning
         puts message
       when :skip
-        @skip_include = true
+        true
       else # :silent
         # NOOP
+        false
       end
     end
   end

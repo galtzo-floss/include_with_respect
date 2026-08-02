@@ -16,9 +16,9 @@ module IncludeWithRespect
 
     included do
       # Rename standard include to include_without_respect
-      define_singleton_method(:include_without_respect, base.method(:include))
+      define_singleton_method(:include_without_respect, Module.instance_method(:include).bind(base))
       # Rename standard extend to extend_without_respect
-      define_singleton_method(:extend_without_respect, base.method(:extend))
+      define_singleton_method(:extend_without_respect, Module.instance_method(:extend).bind(base))
     end
 
     class_methods do

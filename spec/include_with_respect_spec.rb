@@ -17,6 +17,40 @@ RSpec.describe IncludeWithRespect do
     end
   end
 
+  describe ".configure" do
+    it "yields the shared configuration" do
+      begin
+        described_class.configure { |configuration| configuration.level = :silent }
+
+        expect(described_class.configuration.level).to eq([:silent])
+      ensure
+        described_class.configuration.level = :warning
+      end
+    end
+  end
+
+  describe ".extend_with_respect" do
+    let(:receiver) do
+      Class.new do
+        class << self
+          alias_method :extend_without_respect, :extend
+        end
+      end
+    end
+    let(:extension) { Module.new }
+
+    it "extends a receiver that already has the module when configured to skip" do
+      begin
+        receiver.extend(extension)
+        described_class.configuration.level = :skip
+
+        expect { described_class.extend_with_respect(receiver, extension) }.not_to raise_error
+      ensure
+        described_class.configuration.level = :warning
+      end
+    end
+  end
+
   describe "#include_with_respect" do
     let(:local_class) do
       Class.new do
@@ -42,13 +76,11 @@ RSpec.describe IncludeWithRespect do
     before do
       IncludeWithRespect.configuration.level = level
       expect(IncludeWithRespect.configuration.level).to eq([level])
-      LocalClass = local_class
-      LocalModule = local_module
+      stub_const("LocalClass", local_class)
+      stub_const("LocalModule", local_module)
     end
 
     after do
-      Object.send(:remove_const, :LocalModule)
-      Object.send(:remove_const, :LocalClass)
       IncludeWithRespect.configuration.level = :warning
     end
 
