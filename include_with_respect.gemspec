@@ -11,6 +11,8 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Untangle dependency trees'
   spec.description   = 'Find out if your Module include/extend hooks are misbehaving!'
   spec.homepage      = 'http://github.com/pboling/include_with_respect'
+  spec.license       = 'MIT'
+  spec.required_ruby_version = '>= 1.9.2'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'http://github.com/pboling/include_with_respect'
@@ -26,10 +28,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'appraisal'
-  spec.add_development_dependency 'byebug'
+  spec.add_development_dependency 'debug'
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'gem-release', '~> 2.0'
-  spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'rspec-block_is_expected'
