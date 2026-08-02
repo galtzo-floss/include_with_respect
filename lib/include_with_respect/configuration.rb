@@ -2,7 +2,7 @@
 
 module IncludeWithRespect
   class Configuration
-    VALID_LEVELS = %i[warning error skip silent]
+    VALID_LEVELS = [:warning, :error, :skip, :silent]
     attr_reader :level
 
     def initialize(**options)

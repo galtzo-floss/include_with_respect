@@ -1,7 +1,14 @@
 # frozen_string_literal: true
 
-RSpec.describe 'Why is this gem important?' do
-  describe 'a module with state' do
+RSpec.describe "Why is this gem important?" do
+  describe "a module with state" do
+    subject do
+      my_class.send(:include, my_module)
+      my_class.send(:include, my_module)
+      my_class.send(:include, my_module)
+      my_class.send(:include, my_module)
+    end
+
     let(:my_class) do
       Class.new do
         class << self
@@ -18,14 +25,7 @@ RSpec.describe 'Why is this gem important?' do
       end
     end
 
-    subject do
-      my_class.send(:include, my_module)
-      my_class.send(:include, my_module)
-      my_class.send(:include, my_module)
-      my_class.send(:include, my_module)
-    end
-
-    it 'has a compound state which you might want to prevent' do
+    it "has a compound state which you might want to prevent" do
       block_is_expected.to change(my_class, :thing).from(0).to(4)
     end
   end

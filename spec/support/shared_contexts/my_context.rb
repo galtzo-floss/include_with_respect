@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.shared_context 'my context' do
+RSpec.shared_context "my context" do
   let(:my_class) do
     Class.new do
       include MyModule
@@ -10,7 +10,7 @@ RSpec.shared_context 'my context' do
     Module.new do
       def self.included(base)
         puts "my_module included into #{base}"
-        $respect_semaphore << 'my_module'
+        $respect_semaphore << "my_module"
         base.send(:include, MyIncludedModule)
       end
     end
@@ -19,10 +19,11 @@ RSpec.shared_context 'my context' do
     Module.new do
       def self.included(base)
         puts "my_included_module included into #{base}"
-        $respect_semaphore << 'my_included_module'
+        $respect_semaphore << "my_included_module"
       end
+
       def foo
-        puts 'bar'
+        puts "bar"
       end
     end
   end
@@ -32,12 +33,14 @@ RSpec.shared_context 'my context' do
       include MyModule
     end
   end
+
   before do
     MyIncludedModule = my_included_module
     MyModule = my_module
     MyClass = my_class
     MyClassWithRespect = my_class_with_respect
   end
+
   after do
     Object.send(:remove_const, :MyClassWithRespect) if defined?(MyClassWithRespect)
     Object.send(:remove_const, :MyClass) if defined?(MyClass)

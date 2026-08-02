@@ -1,13 +1,14 @@
 # frozen_string_literal: true
 
-require 'include_with_respect/version'
-require 'include_with_respect/configuration'
+require "include_with_respect/configuration"
 
 # How to automatically inject into ActiveSupport::Concern,
 #   or other module dependency trees?
 # Refer to inline documentation in each file.
-require 'include_with_respect/module_with_respect'
-require 'include_with_respect/concern_with_respect' if defined?(ActiveSupport)
+require "include_with_respect/module_with_respect"
+require_relative "include_with_respect/version"
+
+require "include_with_respect/concern_with_respect" if defined?(ActiveSupport)
 
 # [Sometimes] We should respect our ancestors.
 #
@@ -24,7 +25,7 @@ module IncludeWithRespect
 
   def include_with_respect(receiver, module1, *smth)
     @skip_include = false
-    have_respect('included', receiver, module1, *smth) if receiver.include?(module1)
+    have_respect("included", receiver, module1, *smth) if receiver.include?(module1)
 
     receiver.send(:include_without_respect, module1, *smth) unless @skip_include
   end
@@ -32,7 +33,7 @@ module IncludeWithRespect
 
   def extend_with_respect(receiver, module1, *smth)
     @skip_include = false
-    have_respect('extended', receiver, module1, skip, *smth) if receiver.singleton_class.include?(module1)
+    have_respect("extended", receiver, module1, skip, *smth) if receiver.singleton_class.include?(module1)
 
     receiver.send(:extend_without_respect, module1, *smth) unless @skip_include
   end
@@ -57,7 +58,7 @@ module IncludeWithRespect
   private
 
   def have_respect(action, receiver, module1, *smth)
-    message = "#{module1}#{smth.any? ? " with #{smth}" : ''} already #{action} in #{receiver}"
+    message = "#{module1}#{" with #{smth}" if smth.any?} already #{action} in #{receiver}"
     puts "message: #{message}" if configuration.level == [:error]
     configuration.level.each do |level|
       case level
