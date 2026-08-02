@@ -1,0 +1,22 @@
+{
+  "1. a warning will be printed (via `puts`)\n2. the duplicate inclusion will be skipped (meaning the hooks will not run again)": [
+    {
+      "file": "README.md",
+      "lines": [
+        61,
+        77,
+        94
+      ]
+    }
+  ],
+  "2. the duplicate inclusion will be skipped (meaning the hooks will not run again)\n- This is a major change in the behavior of including modules, but normally hooks running multiple times is not desired, or intended, which is why this gem exists!": [
+    {
+      "file": "README.md",
+      "lines": [
+        62,
+        78,
+        95
+      ]
+    }
+  ]
+}
