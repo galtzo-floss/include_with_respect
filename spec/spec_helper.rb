@@ -29,9 +29,6 @@ require "rspec/block_is_expected"
 require "silent_stream"
 require "debug"
 
-# This library
-SimpleCov.start
-
 $respect_semaphore = [] # For tracking as modules get included
 
 require "include_with_respect"
