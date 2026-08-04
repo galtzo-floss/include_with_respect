@@ -3,4 +3,10 @@ module IncludeWithRespect
     VERSION: String
   end
   VERSION: String
+  module Error
+    module Version
+      VERSION: String
+    end
+    VERSION: String
+  end
 end
