@@ -1,5 +1,8 @@
 {
-  "include_with_respect.gemspec:2996695289": [
+  "gemfiles/modular/templating.gemfile:3018447732": [
+    [14, 3, 47, "Bundler/DuplicatedGem: Gem `tree_sitter_language_pack` requirements already given on line 10 of the Gemfile.", 3843603197]
+  ],
+  "include_with_respect.gemspec:3261750841": [
     [165, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 561167510],
     [166, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
     [167, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 248795650],
@@ -12,9 +15,6 @@
   ],
   "lib/include_with_respect.rb:3187268041": [
     [53, 5, 49, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1160219549]
-  ],
-  "spec/include_with_respect/version_spec.rb:1255389232": [
-    [4, 1, 49, "RSpec/SpecFilePathFormat: Spec path should end with `include_with_respect/error/version*_spec.rb`.", 4180199179]
   ],
   "spec/include_with_respect_spec.rb:722520501": [
     [65, 11, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
