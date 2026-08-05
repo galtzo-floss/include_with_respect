@@ -27,7 +27,7 @@ require "bundler/setup"
 # Third party libraries
 require "rspec/block_is_expected"
 require "silent_stream"
-require "debug" if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new("2.7")
+require "debug" if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new("2.7") && ENV["CI"].nil? && ENV.fetch("DEBUG", "false").casecmp("true").zero?
 
 $respect_semaphore = [] # For tracking as modules get included
 
