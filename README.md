@@ -120,6 +120,18 @@ gem install include_with_respect
 
 ## ⚙️ Configuration
 
+The default behavior raises when a module is included or extended more than
+once. Configure the policy globally through
+`IncludeWithRespect.configuration.level`; the supported levels are used by
+the module’s duplicate-include handling, and can also be changed for a
+specific test or integration.
+
+```ruby
+require "include_with_respect"
+
+IncludeWithRespect.configuration.level = :warning
+```
+
 ## 🔧 Basic Usage
 
 ### With Ruby `Class`:
