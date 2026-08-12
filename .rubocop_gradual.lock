@@ -1,8 +1,8 @@
 {
-  "gemfiles/modular/templating.gemfile:3018447732": [
-    [14, 3, 47, "Bundler/DuplicatedGem: Gem `tree_sitter_language_pack` requirements already given on line 10 of the Gemfile.", 3843603197]
+  "gemfiles/modular/templating.gemfile:737310819": [
+    [15, 3, 47, "Bundler/DuplicatedGem: Gem `tree_sitter_language_pack` requirements already given on line 11 of the Gemfile.", 3843603197]
   ],
-  "include_with_respect.gemspec:3261750841": [
+  "include_with_respect.gemspec:2993633642": [
     [165, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 561167510],
     [166, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
     [167, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 248795650],
@@ -42,13 +42,13 @@
     [3, 16, 28, "RSpec/DescribeClass: The first argument to describe should be the class or module being tested.", 556802409],
     [15, 11, 20, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1872657686]
   ],
-  "spec/spec_helper.rb:788231615": [
-    [32, 1, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [37, 1, 27, "Style/GlobalVars: Do not introduce global variables.", 3498152964],
-    [37, 31, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [56, 5, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [56, 26, 27, "Style/GlobalVars: Do not introduce global variables.", 3498152964],
-    [59, 5, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
+  "spec/spec_helper.rb:4133477651": [
+    [31, 1, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [36, 1, 27, "Style/GlobalVars: Do not introduce global variables.", 3498152964],
+    [36, 31, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [55, 5, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [55, 26, 27, "Style/GlobalVars: Do not introduce global variables.", 3498152964],
+    [58, 5, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
   ],
   "spec/support/shared_contexts/my_context.rb:279629335": [
     [3, 22, 12, "RSpec/ContextWording: Context description should match /^when\\b/, /^with\\b/, or /^without\\b/.", 3580178606],

@@ -2,9 +2,6 @@
 
 source "https://gem.coop"
 
-gem "bundler"
-gem "debug", require: false
-gem "rubocop"
-gem "rubocop-rspec"
-
 gemspec path: "../"
+
+eval_gemfile("modular/runtime_heads.gemfile")
