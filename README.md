@@ -80,7 +80,9 @@ The _amazing_ test matrix is powered by the kettle-dev stack.
 
 </details>
 
-### Enterprise Support [![Tidelift](https://tidelift.com/badges/package/rubygems/include_with_respect)](https://tidelift.com/subscription/pkg/rubygems-include_with_respect?utm_source=rubygems-include_with_respect&utm_medium=referral&utm_campaign=readme)
+### Enterprise Support
+
+[![Tidelift](https://tidelift.com/badges/package/rubygems/include_with_respect)](https://tidelift.com/subscription/pkg/rubygems-include_with_respect?utm_source=rubygems-include_with_respect&utm_medium=referral&utm_campaign=readme)
 
 Available as part of the Tidelift Subscription.
 

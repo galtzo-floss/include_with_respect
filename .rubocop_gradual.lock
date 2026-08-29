@@ -1,8 +1,5 @@
 {
-  "gemfiles/modular/templating.gemfile:737310819": [
-    [15, 3, 47, "Bundler/DuplicatedGem: Gem `tree_sitter_language_pack` requirements already given on line 11 of the Gemfile.", 3843603197]
-  ],
-  "include_with_respect.gemspec:2993633642": [
+  "include_with_respect.gemspec:3825851575": [
     [165, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 561167510],
     [166, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
     [167, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 248795650],
