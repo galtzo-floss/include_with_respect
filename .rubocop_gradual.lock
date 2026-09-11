@@ -1,14 +1,66 @@
 {
-  "include_with_respect.gemspec:2334665492": [
+  "Rakefile:3054404427": [
+    [58, 70, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895],
+    [73, 8, 4, "Lint/LtsRuby/UnavailableMethod: Enumerable/Enumerator::Lazy#uniq is unavailable before Ruby 2.4.", 2087995782],
+    [196, 12, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
+    [227, 12, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
+    [310, 12, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
+    [344, 12, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
+    [368, 12, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461]
+  ],
+  "gemfiles/modular/coverage_local.gemfile:1588487406": [
+    [19, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [37, 101, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [46, 5, 5, "Lint/LtsRuby/UnavailableMethod: Thread#fetch is unavailable before Ruby 2.5.", 171106201],
+    [49, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  ],
+  "gemfiles/modular/documentation_local.gemfile:3687110777": [
+    [19, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  ],
+  "gemfiles/modular/style_local.gemfile:1317794630": [
+    [22, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  ],
+  "gemfiles/modular/templating.gemfile:2602645835": [
+    [6, 39, 4, "Lint/LtsRuby/UnavailableMethod: Set#to_s is unavailable before Ruby 2.5.", 2087961426],
+    [7, 28, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895],
+    [8, 40, 4, "Lint/LtsRuby/UnavailableMethod: Set#to_s is unavailable before Ruby 2.5.", 2087961426],
+    [8, 45, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895],
+    [11, 35, 4, "Lint/LtsRuby/UnavailableMethod: Set#to_s is unavailable before Ruby 2.5.", 2087961426],
+    [11, 40, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895]
+  ],
+  "gemfiles/modular/templating_local.gemfile:802438125": [
+    [20, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [85, 101, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [94, 5, 5, "Lint/LtsRuby/UnavailableMethod: Thread#fetch is unavailable before Ruby 2.5.", 171106201],
+    [97, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  ],
+  "include_with_respect.gemspec:1829142582": [
+    [25, 8, 4, "Lint/LtsRuby/UnavailableMethod: Thread#name= is unavailable before Ruby 2.3.", 2087876002],
+    [47, 24, 9, "Lint/LtsRuby/UnavailableMethod: Symbol#end_with? is unavailable before Ruby 2.7.", 308216808],
+    [53, 16, 16, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 3147164910],
+    [54, 16, 19, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 279056797],
+    [55, 16, 17, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 4196512528],
+    [56, 16, 19, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 3960302181],
+    [57, 16, 21, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 2359681088],
+    [57, 78, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [58, 16, 15, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 1629595435],
+    [59, 16, 12, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 2962383854],
+    [60, 16, 12, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 3248034781],
+    [60, 71, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [61, 16, 15, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 1397552598],
+    [62, 16, 20, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 2025055014],
+    [63, 16, 25, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 1727630048],
+    [75, 13, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
+    [100, 13, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
     [165, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 561167510],
     [166, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
     [167, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 248795650],
-    [169, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 4007245444],
-    [170, 3, 57, "Gemspec/DependencyVersion: Dependency version specification is required.", 3994579428],
-    [171, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 475005381],
-    [172, 3, 47, "Gemspec/DependencyVersion: Dependency version specification is required.", 3814335129],
-    [173, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
-    [174, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
+    [168, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 4007245444],
+    [169, 3, 57, "Gemspec/DependencyVersion: Dependency version specification is required.", 3994579428],
+    [170, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 475005381],
+    [171, 3, 47, "Gemspec/DependencyVersion: Dependency version specification is required.", 3814335129],
+    [172, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
+    [173, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
   ],
   "lib/include_with_respect.rb:3187268041": [
     [53, 5, 49, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1160219549]
@@ -16,6 +68,7 @@
   "spec/include_with_respect_spec.rb:722520501": [
     [65, 11, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
     [66, 11, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [66, 30, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
     [70, 11, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
     [70, 25, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
     [77, 7, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
@@ -25,15 +78,18 @@
     [112, 27, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
     [120, 13, 41, "RSpec/Output: Do not write to stdout in specs.", 151451195],
     [121, 13, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [121, 32, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
     [150, 13, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
     [150, 27, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
     [158, 13, 47, "RSpec/Output: Do not write to stdout in specs.", 3497293861],
     [159, 13, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [159, 32, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
     [201, 18, 18, "RSpec/DescribedClass: Use `described_class` instead of `IncludeWithRespect`.", 848656797],
     [233, 15, 34, "RSpec/Output: Do not write to stdout in specs.", 2917333422],
     [233, 29, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
     [241, 15, 41, "RSpec/Output: Do not write to stdout in specs.", 151451195],
-    [242, 15, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
+    [242, 15, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [242, 34, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461]
   ],
   "spec/module_state_spec.rb:175595475": [
     [3, 16, 28, "RSpec/DescribeClass: The first argument to describe should be the class or module being tested.", 556802409],
@@ -50,6 +106,8 @@
   "spec/support/shared_contexts/my_context.rb:279629335": [
     [3, 22, 12, "RSpec/ContextWording: Context description should match /^when\\b/, /^with\\b/, or /^without\\b/.", 3580178606],
     [13, 9, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
-    [22, 9, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498]
+    [13, 28, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
+    [22, 9, 18, "Style/GlobalVars: Do not introduce global variables.", 678770498],
+    [22, 28, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461]
   ]
 }
