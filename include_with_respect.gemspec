@@ -164,7 +164,7 @@ Gem::Specification.new do |spec|
   # spec.add_development_dependency("webmock", ">= 3")                    # Last version to support ruby >= 2.3
   spec.add_development_dependency "appraisal"
   spec.add_development_dependency "bundler"
-  spec.add_development_dependency "debug"
+  spec.add_development_dependency("debug") unless RUBY_ENGINE == "jruby"      # ruby/truffleruby only, native ext doesn't build on jruby
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-block_is_expected"
   spec.add_development_dependency "rubocop"
