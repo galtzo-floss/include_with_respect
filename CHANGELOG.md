@@ -20,6 +20,25 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [1.0.2] - 2026-09-11
+
+- TAG: [v1.0.2][1.0.2t]
+- COVERAGE: 98.70% -- 76/77 lines in 7 files
+- BRANCH COVERAGE: 81.25% -- 13/16 branches in 7 files
+- 44.44% documented
+
+### Added
+
 - kettle-jem-template-20260720-005 - README Support & Community links now
   include RubyForum.
 - kettle-jem-template-20260726-001 - Projects now include YARD lint
@@ -51,10 +70,6 @@ Please file a bug if you notice a violation of semantic versioning.
   - code and tests (1)
   - dependencies (9)
   - other (1)
-
-### Deprecated
-
-### Removed
 
 ### Fixed
 
@@ -102,6 +117,6 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Avoid shared per-call state when suppressing duplicate include and extend operations.
 
-### Security
-
-[Unreleased]: https://gitlab.com/pboling/include_with_respect/-/compare/HEAD
+[Unreleased]: https://github.com/galtzo-floss/include_with_respect/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/galtzo-floss/include_with_respect/compare/f2dbc76c7facabc351a17fddf60d7ba0a27a3554...v1.0.2
+[1.0.2t]: https://github.com/galtzo-floss/include_with_respect/releases/tag/v1.0.2
