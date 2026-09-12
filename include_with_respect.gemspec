@@ -111,8 +111,6 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Utilities
-
   # NOTE: It is preferable to list development dependencies in the gemspec due to increased
   #       visibility and discoverability.
   #       However, development dependencies in gemspec will install on
@@ -164,7 +162,6 @@ Gem::Specification.new do |spec|
   # spec.add_development_dependency("webmock", ">= 3")                    # Last version to support ruby >= 2.3
   spec.add_development_dependency "appraisal"
   spec.add_development_dependency "bundler"
-  spec.add_development_dependency("debug") unless RUBY_ENGINE == "jruby"      # ruby/truffleruby only, native ext doesn't build on jruby
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-block_is_expected"
   spec.add_development_dependency "rubocop"

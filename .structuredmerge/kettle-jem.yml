@@ -106,14 +106,15 @@ dependency_conflicts:
   reviewed: true
   # Review each entry and choose a supported action.
   resolve:
-    # The gemspec defines the released runtime contract. runtime_heads
-    # intentionally resolves version_gem from main to detect upstream changes
-    # before release, so both declarations must remain.
+    # debug is template-managed via gemfiles/modular/debug.gemfile
+    # (platform :mri); it ships a native C extension with no
+    # jruby/truffleruby release, so it can't be a direct gemspec
+    # dependency without breaking JRuby installs.
     - gem: debug
       direct: include_with_respect.gemspec
       modular: gemfiles/modular/debug.gemfile
-      action: remove_modular_gem
-      reason: "The gemspec owns the debug development dependency."
+      action: remove_direct_gem
+      reason: "debug is template-managed via gemfiles/modular/debug.gemfile (platform :mri); it ships a native C extension with no jruby/truffleruby release."
 # This project's identifying emoji.
 # Used as the leading emoji in the README H1 heading and in the gemspec
 # summary and description. Every gem should have its own unique emoji.

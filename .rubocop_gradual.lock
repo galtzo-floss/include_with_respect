@@ -34,7 +34,7 @@
     [94, 5, 5, "Lint/LtsRuby/UnavailableMethod: Thread#fetch is unavailable before Ruby 2.5.", 171106201],
     [97, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
   ],
-  "include_with_respect.gemspec:2853709849": [
+  "include_with_respect.gemspec:3056339729": [
     [25, 8, 4, "Lint/LtsRuby/UnavailableMethod: Thread#name= is unavailable before Ruby 2.3.", 2087876002],
     [47, 24, 9, "Lint/LtsRuby/UnavailableMethod: Symbol#end_with? is unavailable before Ruby 2.7.", 308216808],
     [53, 16, 16, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 3147164910],
@@ -52,15 +52,14 @@
     [63, 16, 25, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 1727630048],
     [75, 13, 2, "Lint/LtsRuby/UnavailableMethod: Method/Proc#<< is unavailable before Ruby 2.6.", 5859461],
     [100, 13, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [165, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 561167510],
-    [166, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
-    [167, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 248795650],
-    [168, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 4007245444],
-    [169, 3, 57, "Gemspec/DependencyVersion: Dependency version specification is required.", 3994579428],
-    [170, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 475005381],
-    [171, 3, 47, "Gemspec/DependencyVersion: Dependency version specification is required.", 3814335129],
-    [172, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
-    [173, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
+    [163, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 561167510],
+    [164, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
+    [165, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 4007245444],
+    [166, 3, 57, "Gemspec/DependencyVersion: Dependency version specification is required.", 3994579428],
+    [167, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 475005381],
+    [168, 3, 47, "Gemspec/DependencyVersion: Dependency version specification is required.", 3814335129],
+    [169, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
+    [170, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
   ],
   "lib/include_with_respect.rb:3187268041": [
     [53, 5, 49, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1160219549]
