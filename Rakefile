@@ -301,6 +301,8 @@ end
 
 # rubocop:enable Rake/DuplicateTask
 
+# rubocop:enable Rake/DuplicateTask
+
 # Setup RuboCop-LTS
 begin
   require "rubocop/lts"
