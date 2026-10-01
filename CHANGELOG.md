@@ -20,23 +20,7 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
-- kettle-jem-template-20260913-001 - Templating now also surfaces a review
-  entry in `dependency_conflicts.resolve` when a direct development
-  dependency doesn't support one or more of this project's declared
-  `engines:` and has no template-managed modular home (e.g. `sqlite3` on
-  `jruby`). Review each entry and pick a resolution per the project's own
-  engine support needs.
-
 ### Changed
-
-- [kc] kettle-jem/template: updated 37 project files:
-  - code and tests (2)
-  - dependencies (3)
-  - other (2)
-  - workflows (30)
-
-- [kc] kettle-jem/prepare: updated 14 project files:
-  - dependencies (14)
 
 ### Deprecated
 
@@ -46,7 +30,7 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Security
 
-## [1.0.2] - 2026-09-11
+## [1.0.2] - 2026-10-01
 
 - TAG: [v1.0.2][1.0.2t]
 - COVERAGE: 98.70% -- 76/77 lines in 7 files
@@ -63,6 +47,13 @@ Please file a bug if you notice a violation of semantic versioning.
 - kettle-jem-template-20260727-001 - Spec harness documentation now lists the
   RSpec helpers provided by `kettle-test`.
 
+- kettle-jem-template-20260913-001 - Templating now also surfaces a review
+  entry in `dependency_conflicts.resolve` when a direct development
+  dependency doesn't support one or more of this project's declared
+  `engines:` and has no template-managed modular home (e.g. `sqlite3` on
+  `jruby`). Review each entry and pick a resolution per the project's own
+  engine support needs.
+
 ### Changed
 
 - kettle-jem-template-20260716-002 - Gemspecs now ship fewer repository-only
@@ -78,14 +69,14 @@ Please file a bug if you notice a violation of semantic versioning.
 - kettle-jem-template-20260801-001 - Generated README gem dashboard links now
   use ClickGems instead of BestGems.
 
-- [kc] kettle-jem/prepare: updated 11 project files:
+- [kc] kettle-jem/prepare: updated 25 project files:
   - configuration (1)
-  - dependencies (10)
-
-- [kc] kettle-jem/template: updated 11 project files:
-  - code and tests (1)
-  - dependencies (9)
-  - other (1)
+  - dependencies (24)
+- [kc] kettle-jem/template: updated 48 project files:
+  - code and tests (3)
+  - dependencies (12)
+  - other (3)
+  - workflows (30)
 
 ### Fixed
 
