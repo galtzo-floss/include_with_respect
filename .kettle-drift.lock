@@ -1,11 +1,20 @@
 {
+  "- ruby: \"ruby\"\nappraisal: \"current\"": [
+    {
+      "file": ".github/workflows/current.yml",
+      "lines": [
+        40,
+        46
+      ]
+    }
+  ],
   "1. a warning will be printed (via `puts`)\n2. the duplicate inclusion will be skipped (meaning the hooks will not run again)": [
     {
       "file": "README.md",
       "lines": [
-        156,
-        172,
-        189
+        173,
+        189,
+        206
       ]
     }
   ],
@@ -13,9 +22,18 @@
     {
       "file": "README.md",
       "lines": [
-        157,
-        173,
-        190
+        174,
+        190,
+        207
+      ]
+    }
+  ],
+  "config: .licenserc.yaml\nmode: \"check\"": [
+    {
+      "file": ".github/workflows/license-eye.yml",
+      "lines": [
+        49,
+        62
       ]
     }
   ],
