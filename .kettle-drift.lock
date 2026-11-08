@@ -1,4 +1,13 @@
 {
+  "- other (3)\n- workflows (30)": [
+    {
+      "file": "CHANGELOG.md",
+      "lines": [
+        33,
+        89
+      ]
+    }
+  ],
   "- ruby: \"ruby\"\nappraisal: \"current\"": [
     {
       "file": ".github/workflows/current.yml",
@@ -12,9 +21,9 @@
     {
       "file": "README.md",
       "lines": [
-        173,
-        189,
-        206
+        140,
+        156,
+        173
       ]
     }
   ],
@@ -22,9 +31,9 @@
     {
       "file": "README.md",
       "lines": [
-        174,
-        190,
-        207
+        141,
+        157,
+        174
       ]
     }
   ],
@@ -43,6 +52,24 @@
       "lines": [
         44,
         50
+      ]
+    }
+  ],
+  "out != \"\" { print > out }\n' \"$bundle\"": [
+    {
+      "file": ".github/workflows/current.yml",
+      "lines": [
+        95,
+        124
+      ]
+    }
+  ],
+  "subject=\"$(openssl x509 -in \"$file\" -noout -subject 2>/dev/null || true)\"\nif [ -n \"$subject\" ] && matches \"$subject\"; then": [
+    {
+      "file": ".github/workflows/current.yml",
+      "lines": [
+        103,
+        127
       ]
     }
   ]
