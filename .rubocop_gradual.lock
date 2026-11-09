@@ -5,14 +5,14 @@
     [77, 1, 6, "Lint/Syntax: unexpected token kRESCUE\n(Using Ruby 2.0 parser; configure using `TargetRubyVersion` parameter, under `AllCops`)", 2123792210],
     [80, 1, 3, "Lint/Syntax: unexpected token kEND\n(Using Ruby 2.0 parser; configure using `TargetRubyVersion` parameter, under `AllCops`)", 193405706]
   ],
-  "include_with_respect.gemspec:2607889972": [
-    [163, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
-    [164, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 4007245444],
-    [165, 3, 57, "Gemspec/DependencyVersion: Dependency version specification is required.", 3994579428],
-    [166, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 475005381],
-    [167, 3, 47, "Gemspec/DependencyVersion: Dependency version specification is required.", 3814335129],
-    [168, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
-    [169, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
+  "include_with_respect.gemspec:2115735453": [
+    [167, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 1243430837],
+    [168, 3, 39, "Gemspec/DependencyVersion: Dependency version specification is required.", 4007245444],
+    [169, 3, 57, "Gemspec/DependencyVersion: Dependency version specification is required.", 3994579428],
+    [170, 3, 41, "Gemspec/DependencyVersion: Dependency version specification is required.", 475005381],
+    [171, 3, 47, "Gemspec/DependencyVersion: Dependency version specification is required.", 3814335129],
+    [172, 3, 43, "Gemspec/DependencyVersion: Dependency version specification is required.", 2802811655],
+    [173, 3, 38, "Gemspec/DependencyVersion: Dependency version specification is required.", 1029208323]
   ],
   "lib/include_with_respect.rb:3187268041": [
     [53, 5, 49, "ThreadSafety/ClassAndModuleAttributes: Avoid mutating class and module attributes.", 1160219549]
